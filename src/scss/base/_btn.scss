@@ -1,0 +1,17 @@
+/* botones*/
+.anuncio__btn{
+    @include btn($amarillo, block);
+}
+.anuncio__btn--block{
+    @include btn($amarillo, inline-block);
+}
+.anuncio__btn--verde{
+    @include btn($verde, inline-block);
+}
+.btn__block--rojo{
+    @include btn($rojo, block);
+    width: 100%;
+}
+.btn__block--amarillo{
+    @include btn($amarillo, block);
+}

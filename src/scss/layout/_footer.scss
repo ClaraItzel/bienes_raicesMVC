@@ -1,0 +1,24 @@
+.footer{
+    padding: calc($separacion / 2) 0;
+    background-color: $grisOscuro;
+    margin: 0;
+
+}
+.contenedor_footer{
+    padding-top: calc( $separacion / 2);
+    .navegacion{
+        visibility: visible;
+        opacity: 1;
+        padding: 0;
+        height: auto;
+        a:hover{
+            background-color: transparent;
+            color: $amarillo;
+            padding: 1rem;
+        }
+    }
+}
+.copy{
+    color: $blanco;
+    text-align: center;
+}

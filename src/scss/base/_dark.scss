@@ -1,0 +1,37 @@
+/* darkmode */
+.darkmode-action{
+    background-color: darken($grisOscuro, 5);
+    color: $blanco;
+    p,form, .form p{
+        color: $blanco;
+    }
+    h1, h2, h3, h4, legend{
+        color: $verde;
+    }
+    .anuncio{
+        background-color: $grisOscuro;
+        .precio{
+            color: $amarillo;
+        }
+    }
+    .form legend{
+        color: $verde;
+    }
+    .form {
+        fieldset{
+            textarea,
+            input,
+            select{
+                background-color: $grisOscuro;
+                color: $gris;
+                border: 1px lighten($grisOscuro, 10)  solid;
+            }
+        }
+       
+      .alerta{
+        color: $blanco;
+      }
+
+    }
+    
+}

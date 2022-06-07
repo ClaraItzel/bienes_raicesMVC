@@ -1,0 +1,55 @@
+.alerta{
+    padding: 1rem;
+    color: black;
+        text-align: center;
+        font-weight: bold;
+        margin: 1rem 0;
+        text-transform: uppercase;
+        
+    &.error{
+        background-color: $rojo;
+     
+    }
+    &.exito{
+        background-color: $verde;
+    }
+}
+.tabla{
+    overflow-x: scroll;
+}
+@include tablet{
+    .tabla{
+        overflow-x: auto;
+    }
+}
+table.propiedades{
+    margin-top: 4rem;
+    width: 100%;
+    border-spacing: 0;
+    thead{
+        background-color: $verde;
+        th{
+            color: $blanco;
+            padding: 2rem;
+        }
+    }
+    td{
+        padding: 2rem;
+        
+    }
+    img{
+        width: 100%;
+        height: 10rem;
+        object-fit: contain;
+    }
+    .propiedades__num{
+        text-align: center;
+        font-weight: $bold;
+        font-size: 2rem;
+    }
+}
+.small{
+    width: 100%;
+    height: 20rem;
+    object-fit: contain;
+}
